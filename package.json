@@ -1,6 +1,6 @@
 {
   "name": "@sctg/react-sortable-tree",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
   "homepage": "https://github.com/sctg-development/react-sortable-tree",
   "main": "lib/index.esm.js",
@@ -84,7 +84,7 @@
     "eslint-plugin-unicorn": "^55.0.0",
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.41",
-    "prettier": "^3.3.3",
+    "prettier": "^3.4.2",
     "react": "^19.0.0",
     "react-dnd-touch-backend": "^14.1.1",
     "react-dom": "^19.0.0",
@@ -92,7 +92,7 @@
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^8.4.7",
-    "typescript": "^5.5.4"
+    "typescript": "^5.7.2"
   },
   "peerDependencies": {
     "react": "^19.0.0",
@@ -103,7 +103,7 @@
     "lodash.isequal": "^4.5.0",
     "react-dnd": "14.0.4",
     "react-dnd-html5-backend": "^16.0.1",
-    "virtua": "^0.33.7"
+    "virtua": "^0.39.3"
   },
   "browserslist": {
     "production": [
