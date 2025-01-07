@@ -9,3 +9,8 @@ export {
   SortableTree,
   SortableTreeWithoutDndContext,
 } from './react-sortable-tree'
+
+import 'tree-node.css';
+import 'placeholder-renderer-default.css';
+import 'node-renderer-default.css';
+import 'style.css';

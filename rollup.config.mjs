@@ -27,7 +27,10 @@ export default [{
     commonjs(),
     typescript(),
     postcss({
-      extensions: ['.css']
+      extensions: ['.css'],
+      modules: true, // Active les CSS modules si nécessaire
+      extract: "style.css", // Extrait le CSS dans un fichier séparé
+      minimize: true, // Minifie le CSS en production,
     }),
   ]
 }, {
