@@ -1,8 +1,8 @@
 {
-  "name": "@marciocamello/react-sortable-tree",
-  "version": "5.0.0-alpha.7",
+  "name": "@sctg/react-sortable-tree",
+  "version": "5.0.0",
   "description": "Drag-and-drop sortable component for nested data and hierarchies",
-  "homepage": "https://github.com/SmartDigitPT/react-sortable-tree",
+  "homepage": "https://github.com/sctg-development/react-sortable-tree",
   "main": "lib/index.esm.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -15,13 +15,14 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepublishOnly": "npm run build",
-    "deploy-storybook": "gh-pages -d storybook-static"
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "files": [
     "lib"
   ],
   "engines": {
-    "node": ">=20.9"
+    "node": ">=22"
   },
   "prettier": {
     "semi": false,
@@ -33,7 +34,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SmartDigitPT/react-sortable-tree"
+    "url": "https://github.com/sctg-development/react-sortable-tree"
   },
   "keywords": [
     "react",
@@ -42,28 +43,29 @@
     "virtual-tree"
   ],
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "tag": "latest"
   },
   "contributors": [
     "Vitalii Shvetsov"
   ],
   "author": "Chris Fritz",
   "license": "MIT",
-  "bugs": "https://github.com/SmartDigitPT/react-sortable-tree/issues",
+  "bugs": "https://github.com/sctg-development/react-sortable-tree/issues",
   "devDependencies": {
-    "@chromatic-com/storybook": "^1.6.1",
-    "@rollup/plugin-commonjs": "^26.0.1",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@chromatic-com/storybook": "^3.2.3",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@rollup/plugin-typescript": "^11.1.6",
-    "@storybook/addon-actions": "^8.2.9",
-    "@storybook/addon-essentials": "^8.2.9",
-    "@storybook/addon-links": "^8.2.9",
+    "@storybook/addon-actions": "^8.4.7",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-links": "^8.4.7",
     "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
-    "@storybook/react": "^8.2.9",
-    "@storybook/react-webpack5": "^8.2.9",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-webpack5": "^8.4.7",
     "@types/lodash.isequal": "^4.5.8",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
     "eslint": "^8.57.0",
@@ -83,24 +85,24 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.41",
     "prettier": "^3.3.3",
-    "react": "^18.3.1",
+    "react": "^19.0.0",
     "react-dnd-touch-backend": "^14.1.1",
-    "react-dom": "^18.3.1",
+    "react-dom": "^19.0.0",
     "rollup": "^4.21.0",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-postcss": "^4.0.2",
-    "storybook": "^8.2.9",
+    "storybook": "^8.4.7",
     "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "react": "^18.2.0",
+    "react": "^19.0.0",
     "react-dnd": "14.0.4",
-    "react-dom": "^18.2.0"
+    "react-dom": "^19.0.0"
   },
   "dependencies": {
     "lodash.isequal": "^4.5.0",
     "react-dnd": "14.0.4",
-    "react-dnd-html5-backend": "^14.1.0",
+    "react-dnd-html5-backend": "^16.0.1",
     "virtua": "^0.33.7"
   },
   "browserslist": {

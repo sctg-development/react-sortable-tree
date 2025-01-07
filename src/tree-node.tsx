@@ -25,7 +25,7 @@ export interface TreeRendererProps {
   rowHeight: number | ((treeIndex: number, node: any, path: any[]) => number)
 
   listIndex: number
-  children: JSX.Element[]
+  children: React.JSX.Element[]
   style?: React.CSSProperties | undefined
 
   // Drop target
